@@ -89,6 +89,25 @@ function Order() {
         </p>
       </div>
       {!priority && <UpdateOrder order={order} />}
+      <p className="flex justify-center">
+        Are you Board🥱? then try these Games🎮 until the orders📦 arrive🚚...
+      </p>
+      <div className="flex justify-between">
+        <a
+          className="rounded-full border-[1px] border-black hover:font-bold"
+          href="https://guess-my-number-sathya.netlify.app/"
+          target="_blank"
+        >
+          🤔 Guess My Number!&nbsp;
+        </a>
+        <a
+          className="rounded-full border-[1px] border-black hover:font-bold"
+          href="https://pig-game-sathya.netlify.app/"
+          target="_blank"
+        >
+          🎲 Pig Game &nbsp;
+        </a>
+      </div>
     </div>
   );
 }
